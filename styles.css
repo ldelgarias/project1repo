@@ -8,20 +8,6 @@ body{
   background-color: #F2F2F2;
 }
 
-.card-title{
-  font-family: 'Big Shoulders Display', cursive;
-  font-weight: 700;
-  font-size:30px;
-  color:#F2F2F2;
-  margin: 15px 0;
-}
-.card-text{
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  color:#FFFFFFC0;
-}
-
 .row{
   display:flex;
   width:70%;
@@ -33,6 +19,25 @@ body{
   padding: 50px;
   width:33.33%;
 }
+
+/* Heading styles */
+.card-title{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size:30px;
+  color:#F2F2F2;
+  margin: 15px 0;
+}
+
+/* Main text styles */
+.card-text{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color:#FFFFFFC0;
+}
+
+/* Background styles for the cards */
 .orange{
   background-color: #E38826;
 }
@@ -43,6 +48,7 @@ body{
   background-color: #004241;
 }
 
+/* Styles for the buttons */
 .button{
   background-color: #F2F2F2;
   border: none;
